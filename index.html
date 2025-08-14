@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    
+    <div id="mode">
+        <div id="light">light</div>
+        <div id="dark" onclick="dar()">dark</div>
+  </div>
+    <div class="game-container">
+        <h1>🎯colour catcher</h1>
+        <p>Click on: <span id="target-color">#</span></p>
+        <div id="grid" class="color-grid"></div>
+        <p>⏰Time Left : <span id="time">30</span>Sec</p>
+        <p>🏆Score:<span id="score">0</span></p>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
